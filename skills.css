@@ -1,0 +1,89 @@
+/* Light pastels + comfortable spacing */
+
+.skills-page h1 {
+  text-align: center;
+  margin: 0 0 36px;
+  color: #4b3832;
+}
+
+.skills-wrap {
+  max-width: 980px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px 32px;
+  padding: 0 8px;
+  box-sizing: border-box;
+}
+
+.skill {
+  padding: 22px 20px;
+  border: 1px solid #e5e0d8;
+  border-radius: 12px;
+  box-sizing: border-box;
+  min-width: 0;
+}
+
+.skill h2 {
+  margin: 0 0 12px 0;
+  font-size: 1.15em;
+  color: #4b3832;
+}
+
+.skill-text {
+  margin: 0;
+  line-height: 1.55;
+  font-size: 15px;
+  color: #5a4a42;
+}
+
+.skill-badge {
+  font-size: 28px;
+  line-height: 1.2;
+  display: block;
+  margin: 0 0 14px 0;
+}
+
+/* Softer, lighter card fills */
+.skill-peach {
+  background-color: #faf6ee;
+}
+
+.skill-blue {
+  background-color: #f0f7ff;
+}
+
+.skill-green {
+  background-color: #f4fbf7;
+}
+
+.skill-purple {
+  background-color: #f7f4ff;
+}
+
+.skill-teal {
+  background-color: #f3f5fc;
+}
+
+.skill-yellow {
+  background-color: #fffdf6;
+}
+
+.skill-pink {
+  background-color: #fef6f8;
+}
+
+@media (max-width: 720px) {
+  .skills-wrap {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 22px 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .skills-wrap {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    max-width: 360px;
+  }
+}

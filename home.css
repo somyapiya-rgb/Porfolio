@@ -1,0 +1,45 @@
+/* External CSS */
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.home-main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 15px;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.photo-box {
+  margin: 0 auto 24px;
+}
+
+.photo-box img {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #e5dccf;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.intro {
+  margin: 12px auto;
+  line-height: 1.5;
+  max-width: 560px;
+}

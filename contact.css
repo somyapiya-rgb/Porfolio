@@ -1,0 +1,76 @@
+/* Contact form centered on the page */
+
+body.contact-body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #f5f0e6;
+  color: #4b3832;
+  font-family: Arial, sans-serif;
+}
+
+.contact-page {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 32px clamp(20px, 5vw, 50px) 48px;
+  box-sizing: border-box;
+}
+
+.contact-inner {
+  width: 100%;
+  max-width: 340px;
+  text-align: center;
+}
+
+.contact-inner h1 {
+  margin: 0 0 24px;
+}
+
+.contact-form {
+  text-align: left;
+}
+
+.contact-form label {
+  font-size: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  max-width: 100%;
+  padding: 8px 10px;
+  margin-top: 4px;
+  box-sizing: border-box;
+  border: 1px solid #c4b8a8;
+  border-radius: 6px;
+  font-family: inherit;
+  font-size: 15px;
+}
+
+.contact-form textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.contact-form .send-btn {
+  display: block;
+  width: 100%;
+  margin-top: 4px;
+  cursor: pointer;
+}
+
+.send-btn {
+  background-color: #8b6f47;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.send-btn:hover {
+  background-color: #7a5f3c;
+}

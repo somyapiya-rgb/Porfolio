@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact - Somya Piya</title>
+  <link rel="stylesheet" href="nav.css">
+  <link rel="stylesheet" href="contact.css">
+</head>
+
+<body class="contact-body">
+
+<div class="site-nav">
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="AboutMe.html">About Me</a></li>
+    <li><a href="Skills.html">Skills</a></li>
+    <li><a href="Interests.html">Interests</a></li>
+    <li><a href="Contact.html">Contact</a></li>
+  </ul>
+</div>
+
+<div class="page contact-page">
+  <div class="contact-inner">
+    <h1>Contact Me</h1>
+
+    <form class="contact-form">
+
+      <label for="contact-name">Name:</label><br>
+      <input 
+        id="contact-name" 
+        type="text" 
+        name="name" 
+        placeholder="Enter your name"
+        required
+        title="Please enter your name"><br><br>
+
+      <label for="contact-email">Email:</label><br>
+      <input 
+        id="contact-email" 
+        type="email" 
+        name="email" 
+        placeholder="Enter your email"
+        required
+        title="Please enter a valid email address"><br><br>
+
+      <label for="contact-message">Message:</label><br>
+      <textarea 
+        id="contact-message" 
+        name="message" 
+        placeholder="Write your message..."
+        required
+        title="Message cannot be empty"></textarea><br><br>
+
+      <button type="submit" class="send-btn">Send</button>
+
+    </form>
+  </div>
+</div>
+
+</body>
+</html>
